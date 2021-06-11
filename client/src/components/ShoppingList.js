@@ -19,7 +19,7 @@ const ShoppingList = () => {
     return (
         <div>
         <Container>
-{/* <Button> Add Item </Button> */}
+
 <ListGroup>
     <TransitionGroup className="Shopping_List">
    
@@ -40,13 +40,6 @@ const ShoppingList = () => {
     )
 }
 
-//onClick={()=>dispatch(deleteItem(item._id))}
+
  export default ShoppingList
 
-//onClick={delet}
-
-// { */}
-/* //    items&&  items.map(item=>  <CSSTransition  key={item._id} item={item}  />  )}
-// onClick={delett} */
-//onClick={()=>delett(item._id)}
-// onClick={()=>delett(item.id)}

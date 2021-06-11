@@ -50,5 +50,5 @@ const ItemModal = ({item}) => {
         </div>
     );
 }
-//onClick={addd}
+
 export default ItemModal;

@@ -14,12 +14,8 @@ loading:false};
                 ...state,items:action.payload.item,
                 loading:false
             }
-            // case LOADING_ITEMS:return{
-            //     ...state,
-            //     loading:true
-            // }
+           
             default:return state
         }
     }
 export default ItemRducer;
-// {id:uuid(),name:"Eggs"},{id:uuid(),name:"Milk"},{id:uuid(),name:"Steak"},{id:uuid(),name:"Water"}
